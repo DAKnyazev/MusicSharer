@@ -43,9 +43,8 @@ namespace MusicSharer.Droid
         {
             if (Intent?.Action == Intent.ActionView)
             {
-                var service = new YandexService();
-                var track = await service.GetTrack(Intent.DataString);
-                var url = await service.GetUrl(track);
+                var track = await new GoogleService().GetTrack(Intent.DataString);
+                var url = await new YandexService().GetUrl(track);
                 Device.OpenUri(new Uri(url));
             }
         }

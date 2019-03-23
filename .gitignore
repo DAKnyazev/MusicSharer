@@ -7,3 +7,5 @@ MusicSharer/MusicSharer/obj
 MusicSharer/MusicSharer/bin
 MusicSharer.Common/bin
 MusicSharer.Services/bin
+MusicSharer.Test/obj
+MusicSharer.Test/bin

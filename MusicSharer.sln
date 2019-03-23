@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicSharer.Services", "Mus
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicSharer.Common", "MusicSharer.Common\MusicSharer.Common.csproj", "{20DD5849-2FE1-4580-89CE-51D32C484C14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicSharer.Test", "MusicSharer.Test\MusicSharer.Test.csproj", "{752D2F04-3B21-4D51-B0C0-72359E1E20A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{20DD5849-2FE1-4580-89CE-51D32C484C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20DD5849-2FE1-4580-89CE-51D32C484C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20DD5849-2FE1-4580-89CE-51D32C484C14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752D2F04-3B21-4D51-B0C0-72359E1E20A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752D2F04-3B21-4D51-B0C0-72359E1E20A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752D2F04-3B21-4D51-B0C0-72359E1E20A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752D2F04-3B21-4D51-B0C0-72359E1E20A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
