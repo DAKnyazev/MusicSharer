@@ -10,11 +10,13 @@ namespace MusicSharer.Services
     {
         private readonly string _host = "https://music.yandex.ru";
         private readonly string _tracksDivClass = "serp-snippet__tracks";
-        private readonly string _trackLinkClass = "d-track__title";
 
         public YandexService() : base("https://music.yandex.ru/search?text=")
         {
         }
+
+        public const string HostUrl = "music.yandex.ru";
+        public string PackageName => "ru.yandex.music";
 
         public async Task<Track> GetTrack(string url)
         {
@@ -22,8 +24,9 @@ namespace MusicSharer.Services
             {
                 var document = await OpenUrl(url);
             }
-            catch (Exception e)
+            catch
             {
+                // ignored
             }
 
             return new Track();

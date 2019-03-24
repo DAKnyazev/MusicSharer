@@ -5,6 +5,11 @@ namespace MusicSharer.Common.Interfaces
     public interface IMusicService
     {
         /// <summary>
+        /// Имя сборки
+        /// </summary>
+        string PackageName { get; }
+
+        /// <summary>
         /// Получить данные о треке
         /// </summary>
         /// <param name="url">Ссылка на трек</param>
